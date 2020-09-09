@@ -24,7 +24,7 @@ function nilaiUN(mtk, bahasaIndonesia, bahasaInggris, ipa) {
     } else {
         grade = "Nilai tidak valid"
     }
-    return `Rata-rata = ${rata2} \n grade = ${grade}`
+    return `Rata-rata = ${rata2} \nGrade = ${grade}`
 }
 
 console.log(nilaiUN(mtk, bahasaIndonesia, bahasaInggris, ipa))
