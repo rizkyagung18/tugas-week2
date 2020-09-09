@@ -9,7 +9,6 @@ function nilaiUN(mtk, bahasaIndonesia, bahasaInggris, ipa) {
     }
 
     const rata2 = (mtk + bahasaIndonesia + bahasaInggris + ipa) / 4
-    console.log(rata2)
 
     let grade;
     if (rata2 <= 100 && rata2 >= 90) {
