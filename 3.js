@@ -1,6 +1,6 @@
 const printSegitiga = (num) => {
     if (typeof num != 'number') {
-        return "Input harus angka!"
+        return "Data harus number"
     }
 
     let hasil = ""
