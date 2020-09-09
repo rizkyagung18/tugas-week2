@@ -4,13 +4,10 @@ const printSegitiga = (num) => {
     }
 
     let hasil = ""
-    let temp = 1
-    for (let i = 1; i <= num; i++) {
-        for (let j = num; j >= i; j--) {
-            hasil += temp;
-            temp++ 
+    for (let i = num; i > 0; i--) {
+        for (let j = 1; j <= i; j++) {
+            hasil += j 
         }
-        temp = 1
         hasil += "\n"
     }
     return hasil
